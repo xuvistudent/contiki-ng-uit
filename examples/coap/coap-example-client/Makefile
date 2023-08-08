@@ -1,4 +1,4 @@
-CONTIKI_PROJECT = coap-example-client
+CONTIKI_PROJECT = coap-client-post
 # coap-example-observe-client is outdated but will be ported at a later point
 all: $(CONTIKI_PROJECT)
 
