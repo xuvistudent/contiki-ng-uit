@@ -12,5 +12,5 @@ CONTIKI=../../..
 # Include the CoAP implementation
 include $(CONTIKI)/Makefile.dir-variables
 MODULES += $(CONTIKI_NG_APP_LAYER_DIR)/coap
-
+MODULES += os/services/shell
 include $(CONTIKI)/Makefile.include
